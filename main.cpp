@@ -67,6 +67,7 @@ int main()
 	while (true) {
 		std::cout << "Search: ";
 		std::cin >> word;
+		transform(word.begin(), word.end(), word.begin(), ::tolower);
 		for (int i = 0; i < num_of_threads; i++)
 			for (auto i : maps[i][word])
 				std::cout << i << std::endl;
