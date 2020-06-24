@@ -1,0 +1,6 @@
+1.Зробити локальну копію репозиторія:
+git clone https://github.com/Stasidze228/CourseWork_ParallelComputing.git
+
+2.створити новий проект в  VIsual Studio. У налаштуваннях проекту обрати std=c++17.
+
+3.Зкомпілювати та запустити.
